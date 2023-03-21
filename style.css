@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body {
+    width: 90%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.title {
+    padding: 29px 0px;
+}
+
+/* header section  start*/
+.haderWrap{
+    background-color: #ede9e5;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav1{
+    background-color: black;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav2{
+    background-color: black;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav2 .btn {
+    margin-left: 162px;
+}
+.nav3{
+    background-color: black;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    padding: 25px;
+    list-style: none;
+}
+ul li a {
+    color: white;
+}
+.btn a {
+    background: lightskyblue;
+    padding: 10px 16px;
+    font-size: 17px;
+    border-radius: 9px;
+    color: white;
+}
+
+.btn {
+    margin-top: 25px;
+    margin-right: 36px;
+}
+/* header section  end*/
+/* box section  start*/
+.boxWrap {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+}
+.box{
+    width: 90%;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 8px rgb(221, 216, 216);}
+
+.box img {
+    width: 100%;
+}
+
+.imgContent img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.boxContent {
+    padding: 20px 13px;
+}
+
+.imgContent {
+    display: flex;
+    padding: 10px 0px;
+    gap: 12px;
+    align-items: center;
+}
+
+.addBTN a {
+    background: #3bb5b5;
+    color: white;
+    padding: 9px 19px;
+    border-radius: 11px;
+    font-size: 14px;
+}
+
+.addBTN {
+    padding: 15px 0px;
+}
+
+.imgContent span a {
+    color: #5c5c5c;
+}
+/* box section  end*/
+/* ======videos section start==== */
+
+#videos {
+    background: #0c0b0b;
+}
+.videoWrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.video_container {
+    display: flex;
+    gap: 50px;
+}
+.videoWrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding: 50px;
+}
+
+.video_container {
+    display: flex;
+    gap: 50px;
+}
+
+.video_container_img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0.7;
+    width: 38%;
+}
+
+
+.video_container_img p {
+    position: absolute;
+    bottom: 11px;
+    right: 14px;
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.duration_box {
+    width: 100%;
+    height: 5px;
+    background: gray;
+    position: absolute;
+    bottom: 0;
+}
+
+.duration_line {
+    width: 50%;
+    height: 5px;
+    background: red;
+}
+.video_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.video_text {
+    color: white;
+}
+
+.channel_name {
+    color: #9f9f9f;
+}
+
+.views_min {
+    color: #9f9f9f;
+}
+/* video section end */
+/* Follow section start */
+
+section#follow {
+    background: #d7d7d7;
+}
+
+.follow_wrap {
+    display: grid;
+    grid-template-columns: 2fr;
+    padding: 50px;
+}
+
+.follow_clm {
+    display: flex;
+    gap: 24%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.follow_box_1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.follow_box_1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.follow_content span {
+    display: block;
+    font-size: 15px;
+}
+
+.follow_content {
+    line-height: 1.4rem;
+}
+/* Follow section end */
+
+section#banner {
+    display: grid;
+    background: #0000004a;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.banner_wrap {
+    background-image: url(img/banner.jpeg);
+    border-radius: 25px !important;
+}
+
+.banner_top h2 {
+    color: salmon;
+    text-align: center;
+    padding: 40px 0px;
+    font-size: -webkit-xxx-large;
+}
+
+.banner_bottom {
+    background: black;
+    padding: 20px;
+    border-radius: 25px;
+}
+.banner_clm{
+    display: flex;
+    gap: 24%;
+    align-items: center;
+    color: white;
+}
+.banner_box_1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+.banner_content{
+    line-height: 1.4rem;
+}
+.banner_box_1 img {width: 100px;height: 100px;border-radius: 50%;}
+.extra_btn{
+    background-color: salmon !important;
+}
+.banner_content h3 span {
+    font-size: 14px;
+}
